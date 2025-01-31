@@ -264,3 +264,47 @@ h6 p {
   font-weight: 400;
   color: #000000;
 }
+.filter{
+  padding: 100px 0;
+}
+.left{
+  display: flex;
+  column-gap: 10px;
+}
+.ic i{
+  padding: 0px 30px;
+  font-size: 20px;
+
+}
+.icP p{
+  padding: 10px 20px;
+  border-left: 2px solid #000000;
+}
+.filterFlex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.right{
+  display: flex;
+  column-gap: 40px;
+}
+.one{
+  font-size: 20px;
+  font-weight: 500;
+}
+.two{
+  font-size: 20px;
+  font-weight: 500;
+  color: #9F9F9F;
+}
+.three{
+  font-size: 20px;
+  font-weight: 500;
+}
+.four{
+  font-size: 20px;
+  font-weight: 500;
+  color: #9F9F9F;
+}
