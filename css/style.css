@@ -145,6 +145,23 @@ h6 p {
 }
 .inImage{
   width: 22.2%;
+  position: relative;
+}
+.badge{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #E97171;
+  top: 4%;
+  left: 75%;
+}
+.badge p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 .allProducts img{
   width: 100%;
