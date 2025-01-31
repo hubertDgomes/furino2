@@ -32,6 +32,7 @@ h6 p {
 }
 .head {
   padding: 38px 0;
+  /* position: fixed; */
 }
 .menubar ul li {
   display: inline-block;
@@ -234,4 +235,32 @@ h6 p {
 }
 .inImage:hover .overlay2{
   opacity: 1;
+}
+.bg{
+  background: url(../images/Rectangle\ 1.jpg);
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.overlay3{
+  padding: 200px 0;
+}
+.overlayText{
+  text-align: center;
+}
+.overlayText h1{
+  font-size: 45px;
+  font-weight: 500;
+  padding-bottom: 23px;
+  color: #000000;
+} 
+.overlayText p{
+  font-size: 16px;
+  color: #000000;
+  font-weight: 700;
+}
+.overlayText .Shop{
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
 }

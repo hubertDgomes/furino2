@@ -1,329 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Furino</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="head">
-        <div class="container">
-            <div class="headFlex">
-                <div class="logo">
-                    <picture>
-                        <img src="images/logo.jpg" alt="logo.jpg">
-                    </picture>
-                </div>
-                <div class="menubar">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="right">
-                    <div class="icons">
-                        <!-- One -->
+      <div class="container">
+        <div class="headFlex">
+          <div class="logo">
+            <picture>
+              <img src="images/logo.jpg" alt="logo.jpg" />
+            </picture>
+          </div>
+          <div class="menubar">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="right">
+            <div class="icons">
+              <!-- One -->
 
-                        <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M21.3333 10V4.16669H23.6666V11.1667H21.3333M21.3333 15.8334H23.6666V13.5H21.3333M9.66665 11.1667C12.7816 11.1667 19 12.73 19 15.8334V19.3334H0.333313V15.8334C0.333313 12.73 6.55165 11.1667 9.66665 11.1667ZM9.66665 0.666687C10.9043 0.666687 12.0913 1.15835 12.9665 2.03352C13.8416 2.90869 14.3333 4.09568 14.3333 5.33335C14.3333 6.57103 13.8416 7.75802 12.9665 8.63319C12.0913 9.50836 10.9043 10 9.66665 10C8.42897 10 7.24198 9.50836 6.36682 8.63319C5.49164 7.75802 4.99998 6.57103 4.99998 5.33335C4.99998 4.09568 5.49164 2.90869 6.36682 2.03352C7.24198 1.15835 8.42897 0.666687 9.66665 0.666687ZM9.66665 13.3834C6.20165 13.3834 2.54998 15.0867 2.54998 15.8334V17.1167H16.7833V15.8334C16.7833 15.0867 13.1316 13.3834 9.66665 13.3834ZM9.66665 2.88335C9.01687 2.88335 8.3937 3.14148 7.93424 3.60094C7.47477 4.06041 7.21665 4.68357 7.21665 5.33335C7.21665 5.98313 7.47477 6.6063 7.93424 7.06577C8.3937 7.52523 9.01687 7.78335 9.66665 7.78335C10.3164 7.78335 10.9396 7.52523 11.3991 7.06577C11.8585 6.6063 12.1166 5.98313 12.1166 5.33335C12.1166 4.68357 11.8585 4.06041 11.3991 3.60094C10.9396 3.14148 10.3164 2.88335 9.66665 2.88335Z"
-                                fill="black" />
-                        </svg>
+              <svg
+                width="24"
+                height="20"
+                viewBox="0 0 24 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.3333 10V4.16669H23.6666V11.1667H21.3333M21.3333 15.8334H23.6666V13.5H21.3333M9.66665 11.1667C12.7816 11.1667 19 12.73 19 15.8334V19.3334H0.333313V15.8334C0.333313 12.73 6.55165 11.1667 9.66665 11.1667ZM9.66665 0.666687C10.9043 0.666687 12.0913 1.15835 12.9665 2.03352C13.8416 2.90869 14.3333 4.09568 14.3333 5.33335C14.3333 6.57103 13.8416 7.75802 12.9665 8.63319C12.0913 9.50836 10.9043 10 9.66665 10C8.42897 10 7.24198 9.50836 6.36682 8.63319C5.49164 7.75802 4.99998 6.57103 4.99998 5.33335C4.99998 4.09568 5.49164 2.90869 6.36682 2.03352C7.24198 1.15835 8.42897 0.666687 9.66665 0.666687ZM9.66665 13.3834C6.20165 13.3834 2.54998 15.0867 2.54998 15.8334V17.1167H16.7833V15.8334C16.7833 15.0867 13.1316 13.3834 9.66665 13.3834ZM9.66665 2.88335C9.01687 2.88335 8.3937 3.14148 7.93424 3.60094C7.47477 4.06041 7.21665 4.68357 7.21665 5.33335C7.21665 5.98313 7.47477 6.6063 7.93424 7.06577C8.3937 7.52523 9.01687 7.78335 9.66665 7.78335C10.3164 7.78335 10.9396 7.52523 11.3991 7.06577C11.8585 6.6063 12.1166 5.98313 12.1166 5.33335C12.1166 4.68357 11.8585 4.06041 11.3991 3.60094C10.9396 3.14148 10.3164 2.88335 9.66665 2.88335Z"
+                  fill="black"
+                />
+              </svg>
 
-                        <!-- One -->
+              <!-- One -->
 
-                        <!-- Two -->
+              <!-- Two -->
 
-                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M24.5 24.5L19.2663 19.257M22.1667 12.25C22.1667 14.88 21.1219 17.4024 19.2622 19.2621C17.4024 21.1219 14.8801 22.1666 12.25 22.1666C9.61995 22.1666 7.0976 21.1219 5.23787 19.2621C3.37813 17.4024 2.33334 14.88 2.33334 12.25C2.33334 9.61992 3.37813 7.09757 5.23787 5.23784C7.0976 3.3781 9.61995 2.33331 12.25 2.33331C14.8801 2.33331 17.4024 3.3781 19.2622 5.23784C21.1219 7.09757 22.1667 9.61992 22.1667 12.25V12.25Z"
-                                stroke="black" stroke-width="2" stroke-linecap="round" />
-                        </svg>
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.5 24.5L19.2663 19.257M22.1667 12.25C22.1667 14.88 21.1219 17.4024 19.2622 19.2621C17.4024 21.1219 14.8801 22.1666 12.25 22.1666C9.61995 22.1666 7.0976 21.1219 5.23787 19.2621C3.37813 17.4024 2.33334 14.88 2.33334 12.25C2.33334 9.61992 3.37813 7.09757 5.23787 5.23784C7.0976 3.3781 9.61995 2.33331 12.25 2.33331C14.8801 2.33331 17.4024 3.3781 19.2622 5.23784C21.1219 7.09757 22.1667 9.61992 22.1667 12.25V12.25Z"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
 
-                        <!-- Two -->
+              <!-- Two -->
 
-                        <!-- Three -->
+              <!-- Three -->
 
-                        <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M7.16668 1.5C3.94551 1.5 1.33334 4.08533 1.33334 7.275C1.33334 9.84983 2.35418 15.9608 12.4027 22.1383C12.5827 22.2479 12.7893 22.3058 13 22.3058C13.2107 22.3058 13.4173 22.2479 13.5973 22.1383C23.6458 15.9608 24.6667 9.84983 24.6667 7.275C24.6667 4.08533 22.0545 1.5 18.8333 1.5C15.6122 1.5 13 5 13 5C13 5 10.3878 1.5 7.16668 1.5Z"
-                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+              <svg
+                width="26"
+                height="24"
+                viewBox="0 0 26 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.16668 1.5C3.94551 1.5 1.33334 4.08533 1.33334 7.275C1.33334 9.84983 2.35418 15.9608 12.4027 22.1383C12.5827 22.2479 12.7893 22.3058 13 22.3058C13.2107 22.3058 13.4173 22.2479 13.5973 22.1383C23.6458 15.9608 24.6667 9.84983 24.6667 7.275C24.6667 4.08533 22.0545 1.5 18.8333 1.5C15.6122 1.5 13 5 13 5C13 5 10.3878 1.5 7.16668 1.5Z"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
 
-                        <!-- Three -->
+              <!-- Three -->
 
-                        <!-- Four -->
+              <!-- Four -->
 
-                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M25.2355 19.1926H8.95234L9.76991 17.5273L23.3543 17.5027C23.8137 17.5027 24.2074 17.1746 24.2894 16.7207L26.1707 6.19062C26.2199 5.91445 26.1461 5.63008 25.9656 5.41406C25.8764 5.30775 25.7652 5.22211 25.6396 5.16309C25.514 5.10407 25.377 5.07308 25.2383 5.07227L7.95702 5.01484L7.80937 4.32031C7.7164 3.87734 7.31718 3.55469 6.86328 3.55469H2.63867C2.38267 3.55469 2.13716 3.65638 1.95614 3.8374C1.77513 4.01841 1.67343 4.26393 1.67343 4.51992C1.67343 4.77592 1.77513 5.02143 1.95614 5.20245C2.13716 5.38346 2.38267 5.48516 2.63867 5.48516H6.08124L6.72656 8.55312L8.31523 16.2449L6.26992 19.5836C6.1637 19.727 6.09972 19.8972 6.08523 20.075C6.07073 20.2528 6.10629 20.4312 6.18788 20.5898C6.35195 20.9152 6.68281 21.1203 7.04921 21.1203H8.7664C8.40032 21.6065 8.20258 22.1988 8.20312 22.8074C8.20312 24.3551 9.46093 25.6129 11.0086 25.6129C12.5562 25.6129 13.8141 24.3551 13.8141 22.8074C13.8141 22.1977 13.6117 21.6043 13.2508 21.1203H17.6559C17.2898 21.6065 17.092 22.1988 17.0926 22.8074C17.0926 24.3551 18.3504 25.6129 19.898 25.6129C21.4457 25.6129 22.7035 24.3551 22.7035 22.8074C22.7035 22.1977 22.5012 21.6043 22.1402 21.1203H25.2383C25.7687 21.1203 26.2035 20.6883 26.2035 20.1551C26.2019 19.8994 26.0993 19.6546 25.9179 19.4743C25.7366 19.294 25.4913 19.1927 25.2355 19.1926ZM8.35898 6.91797L24.1035 6.96992L22.5613 15.6051L10.1937 15.627L8.35898 6.91797ZM11.0086 23.6715C10.5328 23.6715 10.1445 23.2832 10.1445 22.8074C10.1445 22.3316 10.5328 21.9434 11.0086 21.9434C11.4844 21.9434 11.8726 22.3316 11.8726 22.8074C11.8726 23.0366 11.7816 23.2564 11.6196 23.4184C11.4575 23.5805 11.2378 23.6715 11.0086 23.6715ZM19.898 23.6715C19.4223 23.6715 19.034 23.2832 19.034 22.8074C19.034 22.3316 19.4223 21.9434 19.898 21.9434C20.3738 21.9434 20.7621 22.3316 20.7621 22.8074C20.7621 23.0366 20.6711 23.2564 20.509 23.4184C20.347 23.5805 20.1272 23.6715 19.898 23.6715Z"
-                                fill="black" />
-                        </svg>
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25.2355 19.1926H8.95234L9.76991 17.5273L23.3543 17.5027C23.8137 17.5027 24.2074 17.1746 24.2894 16.7207L26.1707 6.19062C26.2199 5.91445 26.1461 5.63008 25.9656 5.41406C25.8764 5.30775 25.7652 5.22211 25.6396 5.16309C25.514 5.10407 25.377 5.07308 25.2383 5.07227L7.95702 5.01484L7.80937 4.32031C7.7164 3.87734 7.31718 3.55469 6.86328 3.55469H2.63867C2.38267 3.55469 2.13716 3.65638 1.95614 3.8374C1.77513 4.01841 1.67343 4.26393 1.67343 4.51992C1.67343 4.77592 1.77513 5.02143 1.95614 5.20245C2.13716 5.38346 2.38267 5.48516 2.63867 5.48516H6.08124L6.72656 8.55312L8.31523 16.2449L6.26992 19.5836C6.1637 19.727 6.09972 19.8972 6.08523 20.075C6.07073 20.2528 6.10629 20.4312 6.18788 20.5898C6.35195 20.9152 6.68281 21.1203 7.04921 21.1203H8.7664C8.40032 21.6065 8.20258 22.1988 8.20312 22.8074C8.20312 24.3551 9.46093 25.6129 11.0086 25.6129C12.5562 25.6129 13.8141 24.3551 13.8141 22.8074C13.8141 22.1977 13.6117 21.6043 13.2508 21.1203H17.6559C17.2898 21.6065 17.092 22.1988 17.0926 22.8074C17.0926 24.3551 18.3504 25.6129 19.898 25.6129C21.4457 25.6129 22.7035 24.3551 22.7035 22.8074C22.7035 22.1977 22.5012 21.6043 22.1402 21.1203H25.2383C25.7687 21.1203 26.2035 20.6883 26.2035 20.1551C26.2019 19.8994 26.0993 19.6546 25.9179 19.4743C25.7366 19.294 25.4913 19.1927 25.2355 19.1926ZM8.35898 6.91797L24.1035 6.96992L22.5613 15.6051L10.1937 15.627L8.35898 6.91797ZM11.0086 23.6715C10.5328 23.6715 10.1445 23.2832 10.1445 22.8074C10.1445 22.3316 10.5328 21.9434 11.0086 21.9434C11.4844 21.9434 11.8726 22.3316 11.8726 22.8074C11.8726 23.0366 11.7816 23.2564 11.6196 23.4184C11.4575 23.5805 11.2378 23.6715 11.0086 23.6715ZM19.898 23.6715C19.4223 23.6715 19.034 23.2832 19.034 22.8074C19.034 22.3316 19.4223 21.9434 19.898 21.9434C20.3738 21.9434 20.7621 22.3316 20.7621 22.8074C20.7621 23.0366 20.6711 23.2564 20.509 23.4184C20.347 23.5805 20.1272 23.6715 19.898 23.6715Z"
+                  fill="black"
+                />
+              </svg>
 
-                        <!-- Four -->
-                    </div>
-                </div>
+              <!-- Four -->
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Backgroud Image -->
     <div class="bg1">
-        <div class="container">
-            <div class="overlay">
-                <h3>New Arrival</h3>
-                <h1>Discover Our New Collection</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                    mattis.</p>
-                <a href="#">Buy Now</a>
-            </div>
+      <div class="container">
+        <div class="overlay">
+          <h3>New Arrival</h3>
+          <h1>Discover Our New Collection</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis.
+          </p>
+          <a href="#">Buy Now</a>
         </div>
+      </div>
     </div>
     <!-- Backgroud Image -->
     <!-- 2nd Part Start -->
     <div class="rooms">
-        <div class="container">
-            <div class="roomHead">
-                <h2>Browse The Range</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="roomImages">
-                <div class="din">
-                    <picture>
-                        <img src="images/Room1.jpg" alt="Room1.jpg">
-                    </picture>
-                    <p>Dining</p>
-                </div>
-                <div class="liv">
-                    <picture>
-                        <img src="images/Room2.jpg" alt="Room1.jpg">
-                    </picture>
-                    <p>Living Room</p>
-                </div>
-                <div class="bed">
-                    <picture>
-                        <img src="images/Room3.jpg" alt="Room1.jpg">
-                    </picture>
-                    <p>Bedroom</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="roomHead">
+          <h2>Browse The Range</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+        <div class="roomImages">
+          <div class="din">
+            <picture>
+              <img src="images/Room1.jpg" alt="Room1.jpg" />
+            </picture>
+            <p>Dining</p>
+          </div>
+          <div class="liv">
+            <picture>
+              <img src="images/Room2.jpg" alt="Room1.jpg" />
+            </picture>
+            <p>Living Room</p>
+          </div>
+          <div class="bed">
+            <picture>
+              <img src="images/Room3.jpg" alt="Room1.jpg" />
+            </picture>
+            <p>Bedroom</p>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- 2nd Part End -->
     <!-- 3rd Part Start -->
     <div class="products">
-        <div class="container">
-            <div class="proCap">
-                <h2>Our Products</h2>
-            </div>
-            <div class="allProducts">
-
-                <div class="inImage">
-                    <div class="proImg">
-                        <picture>
-                            <img src="images/syl.jpg " alt="Syl">
-                        </picture>
-                    </div>
-                    <div class="detImg">
-                        <h3>Syltherine</h3>
-                        <p>Stylish cafe chair</p>
-                        <h4>Rp 2.500.000 <del>Rp 3.500.000</del></h4>
-                    </div>
-                    <div class="badge">
-                        <p>-50%</p>
-                    </div>
-                    <div class="overlay2">
-                        <p><a href="#">Add to cart</a></p>
-                        <div class="icons">
-                            <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
-                            <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
-                            <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="inImage">
-                    <div class="proImg">
-                        <picture>
-                            <img src="images/lolito.jpg" alt="Syl">
-                        </picture>
-                    </div>
-                    <div class="detImg">
-                        <h3>Lolito</h3>
-                        <p>Luxury big sofa</p>
-                        <h4>Rp 7.000.000<del>Rp 14.000.000</del></h4>
-                    </div>
-                    <div class="badge">
-                        <p>-50%</p>
-                    </div>
-                    <div class="overlay2">
-                        <p><a href="#">Add to cart</a></p>
-                        <div class="icons">
-                            <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
-                            <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
-                            <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="inImage">
-                    <div class="proImg">
-                        <picture>
-                            <img src="images/lolito.jpg" alt="Syl">
-                        </picture>
-                    </div>
-                    <div class="detImg">
-                        <h3>Lolito</h3>
-                        <p>Luxury big sofa</p>
-                        <h4>Rp 7.000.000<del>Rp 14.000.000</del></h4>
-                    </div>
-                    <div class="badge">
-                        <p>-50%</p>
-                    </div>
-                    <div class="overlay2">
-                        <p><a href="#">Add to cart</a></p>
-                        <div class="icons">
-                            <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
-                            <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
-                            <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="inImage">
-                    <div class="proImg">
-                        <picture>
-                            <img src="images/res.jpg" alt="Syl">
-                        </picture>
-                    </div>
-                    <div class="detImg">
-                        <h3>Respira</h3>
-                        <p>Outdoor bar table and stool</p>
-                        <h4>Rp 500.000</h4>
-                    </div>
-                    <div class="badge">
-                        <p>-50%</p>
-                    </div>
-                    <div class="overlay2">
-                        <p><a href="#">Add to cart</a></p>
-                        <div class="icons">
-                            <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
-                            <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
-                            <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="inImage">
-                    <div class="proImg">
-                        <picture>
-                            <img src="images/grifo.jpg" alt="Syl">
-                        </picture>
-                    </div>
-                    <div class="detImg">
-                        <h3>Grifo</h3>
-                        <p>Night lamp</p>
-                        <h4>Rp 1.500.000</h4>
-                    </div>
-                    <div class="badge">
-                        <p>-50%</p>
-                    </div>
-                    <div class="overlay2">
-                        <p><a href="#">Add to cart</a></p>
-                        <div class="icons">
-                            <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
-                            <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
-                            <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="inImage">
-                    <div class="proImg">
-                        <picture>
-                            <img src="images/muggo.jpg" alt="Syl">
-                        </picture>
-                    </div>
-                    <div class="detImg">
-                        <h3>Muggo</h3>
-                        <p>Small mug</p>
-                        <h4>Rp 150.000</h4>
-                    </div>
-                    <div class="badge">
-                        <p>-50%</p>
-                    </div>
-                    <div class="overlay2">
-                        <p><a href="#">Add to cart</a></p>
-                        <div class="icons">
-                            <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
-                            <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
-                            <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="inImage">
-                    <div class="proImg">
-                        <picture>
-                            <img src="images/ping.jpg" alt="Syl">
-                        </picture>
-                    </div>
-                    <div class="detImg">
-                        <h3>Pingky</h3>
-                        <p>Cute bed set</p>
-                        <h4>Rp 7.000.000<del>Rp 14.000.000</del></h4>
-                    </div>
-                    <div class="badge">
-                        <p>-50%</p>
-                    </div>
-                    <div class="overlay2">
-                        <p><a href="#">Add to cart</a></p>
-                        <div class="icons">
-                            <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
-                            <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
-                            <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="inImage">
-                    <div class="proImg">
-                        <picture>
-                            <img src="images/potty.jpg" alt="Syl">
-                        </picture>
-                    </div>
-                    <div class="detImg">
-                        <h3>Potty</h3>
-                        <p>Minimalist flower pot</p>
-                        <h4>Rp 500.000</h4>
-                    </div>
-                    <div class="badge">
-                        <p>-50%</p>
-                    </div>
-                    <div class="overlay2">
-                        <p><a href="#">Add to cart</a></p>
-                        <div class="icons">
-                            <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
-                            <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
-                            <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="proCap">
+          <h2>Our Products</h2>
         </div>
-        
+        <div class="allProducts">
+          <div class="inImage">
+            <div class="proImg">
+              <picture>
+                <img src="images/syl.jpg " alt="Syl" />
+              </picture>
+            </div>
+            <div class="detImg">
+              <h3>Syltherine</h3>
+              <p>Stylish cafe chair</p>
+              <h4>Rp 2.500.000 <del>Rp 3.500.000</del></h4>
+            </div>
+            <div class="badge">
+              <p>-50%</p>
+            </div>
+            <div class="overlay2">
+              <p><a href="#">Add to cart</a></p>
+              <div class="icons">
+                <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
+                <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
+                <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="inImage">
+            <div class="proImg">
+              <picture>
+                <img src="images/lolito.jpg" alt="Syl" />
+              </picture>
+            </div>
+            <div class="detImg">
+              <h3>Lolito</h3>
+              <p>Luxury big sofa</p>
+              <h4>Rp 7.000.000<del>Rp 14.000.000</del></h4>
+            </div>
+            <div class="badge">
+              <p>-50%</p>
+            </div>
+            <div class="overlay2">
+              <p><a href="#">Add to cart</a></p>
+              <div class="icons">
+                <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
+                <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
+                <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="inImage">
+            <div class="proImg">
+              <picture>
+                <img src="images/lolito.jpg" alt="Syl" />
+              </picture>
+            </div>
+            <div class="detImg">
+              <h3>Lolito</h3>
+              <p>Luxury big sofa</p>
+              <h4>Rp 7.000.000<del>Rp 14.000.000</del></h4>
+            </div>
+            <div class="badge">
+              <p>-50%</p>
+            </div>
+            <div class="overlay2">
+              <p><a href="#">Add to cart</a></p>
+              <div class="icons">
+                <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
+                <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
+                <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="inImage">
+            <div class="proImg">
+              <picture>
+                <img src="images/res.jpg" alt="Syl" />
+              </picture>
+            </div>
+            <div class="detImg">
+              <h3>Respira</h3>
+              <p>Outdoor bar table and stool</p>
+              <h4>Rp 500.000</h4>
+            </div>
+            <div class="badge">
+              <p>-50%</p>
+            </div>
+            <div class="overlay2">
+              <p><a href="#">Add to cart</a></p>
+              <div class="icons">
+                <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
+                <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
+                <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="inImage">
+            <div class="proImg">
+              <picture>
+                <img src="images/grifo.jpg" alt="Syl" />
+              </picture>
+            </div>
+            <div class="detImg">
+              <h3>Grifo</h3>
+              <p>Night lamp</p>
+              <h4>Rp 1.500.000</h4>
+            </div>
+            <div class="badge">
+              <p>-50%</p>
+            </div>
+            <div class="overlay2">
+              <p><a href="#">Add to cart</a></p>
+              <div class="icons">
+                <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
+                <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
+                <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="inImage">
+            <div class="proImg">
+              <picture>
+                <img src="images/muggo.jpg" alt="Syl" />
+              </picture>
+            </div>
+            <div class="detImg">
+              <h3>Muggo</h3>
+              <p>Small mug</p>
+              <h4>Rp 150.000</h4>
+            </div>
+            <div class="badge">
+              <p>-50%</p>
+            </div>
+            <div class="overlay2">
+              <p><a href="#">Add to cart</a></p>
+              <div class="icons">
+                <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
+                <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
+                <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="inImage">
+            <div class="proImg">
+              <picture>
+                <img src="images/ping.jpg" alt="Syl" />
+              </picture>
+            </div>
+            <div class="detImg">
+              <h3>Pingky</h3>
+              <p>Cute bed set</p>
+              <h4>Rp 7.000.000<del>Rp 14.000.000</del></h4>
+            </div>
+            <div class="badge">
+              <p>-50%</p>
+            </div>
+            <div class="overlay2">
+              <p><a href="#">Add to cart</a></p>
+              <div class="icons">
+                <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
+                <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
+                <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="inImage">
+            <div class="proImg">
+              <picture>
+                <img src="images/potty.jpg" alt="Syl" />
+              </picture>
+            </div>
+            <div class="detImg">
+              <h3>Potty</h3>
+              <p>Minimalist flower pot</p>
+              <h4>Rp 500.000</h4>
+            </div>
+            <div class="badge">
+              <p>-50%</p>
+            </div>
+            <div class="overlay2">
+              <p><a href="#">Add to cart</a></p>
+              <div class="icons">
+                <i class="fa-solid fa-share-nodes"><a href="#">SHARE</a></i>
+                <i class="fa-solid fa-code-compare"><a href="#">COMPARE</a></i>
+                <i class="fa-regular fa-heart"><a href="#">LIKE</a></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- 3rd Part End -->
-</body>
-
+     <!-- 4th Part Start -->
+        <div class="bg">
+          <div class="container">
+            <div class="overlay3">
+              <div class="overlayText">
+                <h1>Shop</h1>
+                <p>Home > <span class="Shop">Shop</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+     <!-- 4th Part End -->
+  </body>
 </html>
