@@ -476,3 +476,35 @@ h6 p {
   color: #000000;
   margin-left: 20px;
 }
+.Description{
+  padding: 50px 0;
+}
+.Description ul{
+  display: flex;
+  column-gap: 40px;
+  justify-content: center;
+}
+.li1{
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+.li2{
+  font-size: 24px;
+  font-weight: 500;
+  color: #9F9F9F;
+}
+.li3{
+  font-size: 24px;
+  font-weight: 500;
+  color: #9F9F9F;
+}
+.disText1{
+  font-size: 16px;
+  font-weight: 500;
+  color: #9F9F9F;
+}
+.relPro{
+  padding: 100px 0;
+  text-align: center;
+}
