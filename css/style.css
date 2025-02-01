@@ -308,3 +308,162 @@ h6 p {
   font-weight: 500;
   color: #9F9F9F;
 }
+.numberItem{
+  padding-top: 60px;
+  text-align: center
+}
+.numberItem ul li {
+  display: inline-block;
+  padding: 0px 30px;
+  text-align: center;
+  font-size: 20px;
+}
+.numberItem .mark{
+  padding: 18px 30px;
+  border-radius: 10px;
+  background:#B88E2F;
+  color: white;
+}
+.achive{
+  padding: 100px 0;
+}
+.high{
+  display: flex;
+  align-items: center;
+}
+.achiveFlex{
+  display: flex;
+  column-gap: 20px;
+}
+.acText h2{
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 7px;
+}
+.acText p{
+  font-size: 20px;
+  color: #898989;
+  font-weight: 500;
+}
+.cart{
+  padding: 40px 0;
+  background: #F9F1E7;
+}
+.leftFlex{
+  display: flex;
+  column-gap: 30px;
+  margin-left: 98px;
+}
+.leftOne{
+  font-size: 16px;
+  font-weight: 500;
+  color: #9F9F9F;
+}
+.leftTwo{
+  font-size: 16px;
+  font-weight: 500;
+  color: #9F9F9F;
+}
+.leftThree{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  border-left: 2px solid black;
+  padding-left: 50px;
+}
+.sofaDetails{
+  padding: 50px 0;
+  display: flex;
+}
+.sofaDet1{
+  padding-left: 100px;
+}
+.innerFlex{
+  display: flex;
+}
+.sizeFlex ul li{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+.sizeFlex .mark1{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background:#B88E2F;
+}
+.colorFlex{
+  display: flex;
+  column-gap: 14px;
+}
+.violet{
+  padding: 20px;
+  background: #816DFA;
+  border-radius: 50%;
+}
+.black{
+  padding: 20px;
+  background: #000000;
+  border-radius: 50%;
+}
+.yellow{
+  padding: 20px;
+  background: #B88E2F;
+  border-radius: 50%;
+}
+.buttonItems{
+  display: flex;
+  padding-top: 20px;
+  column-gap: 20px;
+}
+.bt1{
+  padding: 20px 40px;
+  border: 1px solid #9F9F9F;
+  border-radius: 10px
+}
+.bt2{
+  padding: 20px 40px;
+  border: 1px solid #9F9F9F;
+  border-radius: 10px
+}
+.bt3{
+  padding: 20px 40px;
+  border: 1px solid #9F9F9F;
+  border-radius: 10px;
+}
+.h_1{
+  font-size: 42px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.p_money{
+  font-size: 24px;
+  font-weight: 500;
+  color:#9F9F9F;
+  padding-bottom: 20px;
+}
+.review{
+  padding-left: 20px;
+  border-left: 1px solid black;
+  font-size: 13px;
+  color: #9F9F9F;
+}
+.p_2{
+  font-size: 13px;
+  font-weight: 500;
+  color: #000000;
+  padding-top: 20px;
+  margin-right: 200px;
+}
+.size{
+  padding-top: 35px;
+  font-size: 14px;
+  color: #9F9F9F;
+  padding-bottom: 10px;
+}
+.color{
+  padding-top: 20px;
+  font-size: 14px;
+  color: #9F9F9F;
+  padding-bottom: 10px;
+}
