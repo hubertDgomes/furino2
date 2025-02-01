@@ -467,3 +467,12 @@ h6 p {
   color: #9F9F9F;
   padding-bottom: 10px;
 }
+.address p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #9F9F9F;
+}
+.address i{
+  color: #000000;
+  margin-left: 20px;
+}
