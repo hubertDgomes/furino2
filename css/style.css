@@ -589,6 +589,7 @@ h6 p {
   display: flex;
   column-gap: 100px;
   align-items: center;
+  padding: 40px;
 }
 .Warranty{
   padding-bottom: 20px;
@@ -599,10 +600,11 @@ h6 p {
   padding-bottom: 40px;
 }
 .CartButtom{
-  padding: 10px 20px;
+  padding: 10px 0;
   background: #B88E2F;
   text-align: center; 
   color: #ffffff;
+  margin-top: 20px;
 }
 .lastP1{
   padding-bottom: 100px;
