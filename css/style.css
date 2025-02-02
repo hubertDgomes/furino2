@@ -526,3 +526,84 @@ h6 p {
   font-weight: 900;
   font-size: 16px;
 }
+.comparePart{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 50px 0;
+  justify-content: space-between;
+}
+.comInnerFlex{
+  display: flex;
+}
+.goto{
+  width: 25%;
+}
+.comp1{
+  width: 25%;
+}
+.addPro{
+  width: 25%;
+}
+.goto h1{
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-right: 100px;
+  padding-bottom: 35px;
+}
+.goto p{
+  font-size: 20px;
+  font-weight: 500;
+  color: #727272;
+  border-bottom: 1px solid #727272;
+  margin-right: 60px;
+}
+
+.addPro h3{
+  padding-bottom: 20px;
+  margin-left: 10px;
+}
+.addPro p{
+  padding: 10px 20px;
+  background:#B88E2F;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.general{
+  font-size: 28px;
+  padding-bottom:26px;
+}
+.general{
+  display: flex;
+  column-gap: 190px;
+  font-size: 20px;
+}
+.general p{
+  line-height: 43px;
+}
+.lastP{
+  padding-bottom: 96px;
+}
+.warr{
+  display: flex;
+  column-gap: 100px;
+  align-items: center;
+}
+.Warranty{
+  padding-bottom: 20px;
+}
+.warr p{
+  line-height: 43px;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.CartButtom{
+  padding: 10px 20px;
+  background: #B88E2F;
+  text-align: center; 
+  color: #ffffff;
+}
+.lastP1{
+  padding-bottom: 100px;
+}
